@@ -1,0 +1,26 @@
+{
+  "model": "clap_zeroshot",
+  "n_test": 618,
+  "accuracy": 0.1489,
+  "top2_accuracy": 0.3236,
+  "balanced_accuracy": 0.1555,
+  "macro_f1": 0.1261,
+  "per_class_f1": {
+    "Cha-cha": 0.093,
+    "Foxtrot": 0.021,
+    "Jive": 0.056,
+    "Paso doble": 0.0,
+    "Quickstep": 0.0,
+    "Rumba": 0.07,
+    "Samba": 0.337,
+    "Tango": 0.333,
+    "Viennese waltz": 0.214,
+    "Waltz": 0.135
+  },
+  "templates": [
+    "{} music",
+    "a {} song",
+    "ballroom dance music for a {}",
+    "music to dance the {} to"
+  ]
+}
