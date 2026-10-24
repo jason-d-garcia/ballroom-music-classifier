@@ -1,0 +1,16 @@
+# Audio, features and trained checkpoints stay local (dataset audio is not redistributable)
+data/
+features/
+runs/
+*.mp3
+*.wav
+*.flac
+*.npz
+*.pt
+tagged.csv
+
+__pycache__/
+*.egg-info/
+.venv/
+.pytest_cache/
+.DS_Store
