@@ -1,0 +1,20 @@
+{
+  "model": "tempo_estimated",
+  "n_test": 618,
+  "accuracy": 0.5712,
+  "top2_accuracy": 0.8058,
+  "balanced_accuracy": 0.5054,
+  "macro_f1": 0.4787,
+  "per_class_f1": {
+    "Cha-cha": 0.698,
+    "Foxtrot": 0.759,
+    "Jive": 0.464,
+    "Paso doble": 0.0,
+    "Quickstep": 0.636,
+    "Rumba": 0.515,
+    "Samba": 0.49,
+    "Tango": 0.711,
+    "Viennese waltz": 0.203,
+    "Waltz": 0.31
+  }
+}

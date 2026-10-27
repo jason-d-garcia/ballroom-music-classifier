@@ -1,0 +1,21 @@
+{
+  "model": "tempo_oracle",
+  "n_test": 618,
+  "accuracy": 0.8738,
+  "top2_accuracy": 0.979,
+  "balanced_accuracy": 0.8522,
+  "macro_f1": 0.8641,
+  "per_class_f1": {
+    "Cha-cha": 0.785,
+    "Foxtrot": 0.949,
+    "Jive": 0.909,
+    "Paso doble": 0.769,
+    "Quickstep": 1.0,
+    "Rumba": 0.683,
+    "Samba": 0.783,
+    "Tango": 0.8,
+    "Viennese waltz": 0.974,
+    "Waltz": 0.989
+  },
+  "note": "annotated BPM from the dataset; upper bound for tempo-only"
+}

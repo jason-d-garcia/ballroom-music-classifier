@@ -1,0 +1,25 @@
+{
+  "model": "clap_probe",
+  "n_test": 618,
+  "accuracy": 0.8382,
+  "top2_accuracy": 0.9531,
+  "balanced_accuracy": 0.8373,
+  "macro_f1": 0.8186,
+  "per_class_f1": {
+    "Cha-cha": 0.797,
+    "Foxtrot": 0.87,
+    "Jive": 0.781,
+    "Paso doble": 0.667,
+    "Quickstep": 0.853,
+    "Rumba": 0.795,
+    "Samba": 0.867,
+    "Tango": 0.936,
+    "Viennese waltz": 0.779,
+    "Waltz": 0.842
+  },
+  "val_macro_f1": 0.8276,
+  "epochs": 38,
+  "layer_weights": [
+    1.0
+  ]
+}
