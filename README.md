@@ -95,6 +95,7 @@ python classify.py ~/Music/some_album/
 | `train_probe.py` | layer-mixing MLP probe on frozen embeddings (+ per-layer sweep) |
 | `zeroshot_clap.py` | CLAP with text prompts, no training |
 | `classify.py` | tag local files or Deezer previews |
+| `build_dataset.py` | labelled metadata table → `dataset/labels.csv` (dance, style family, BPM/MPM, meter; see [`dataset/`](dataset/)) |
 
 ## Known limits
 
