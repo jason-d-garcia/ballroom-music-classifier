@@ -1,0 +1,20 @@
+{
+  "model": "rhythm_timbre",
+  "n_test": 618,
+  "accuracy": 0.8883,
+  "top2_accuracy": 0.9563,
+  "balanced_accuracy": 0.8738,
+  "macro_f1": 0.8585,
+  "per_class_f1": {
+    "Cha-cha": 0.902,
+    "Foxtrot": 0.961,
+    "Jive": 0.929,
+    "Paso doble": 0.571,
+    "Quickstep": 0.926,
+    "Rumba": 0.814,
+    "Samba": 0.971,
+    "Tango": 0.935,
+    "Viennese waltz": 0.753,
+    "Waltz": 0.822
+  }
+}

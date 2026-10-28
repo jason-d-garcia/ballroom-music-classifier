@@ -1,0 +1,37 @@
+{
+  "model": "mert_probe",
+  "n_test": 618,
+  "accuracy": 0.9563,
+  "top2_accuracy": 0.9854,
+  "balanced_accuracy": 0.9567,
+  "macro_f1": 0.947,
+  "per_class_f1": {
+    "Cha-cha": 0.957,
+    "Foxtrot": 0.974,
+    "Jive": 0.981,
+    "Paso doble": 0.842,
+    "Quickstep": 0.993,
+    "Rumba": 0.904,
+    "Samba": 0.986,
+    "Tango": 0.965,
+    "Viennese waltz": 0.944,
+    "Waltz": 0.925
+  },
+  "val_macro_f1": 0.9679,
+  "epochs": 38,
+  "layer_weights": [
+    0.017,
+    0.014,
+    0.048,
+    0.335,
+    0.089,
+    0.042,
+    0.096,
+    0.213,
+    0.026,
+    0.033,
+    0.03,
+    0.025,
+    0.032
+  ]
+}

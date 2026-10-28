@@ -1,0 +1,12 @@
+torch>=2.2
+# MERT's remote code breaks on some newer transformers releases; this range is known to work.
+transformers>=4.38,<4.50
+nnAudio>=0.3.2
+librosa>=0.10
+soundfile>=0.12
+numpy
+pandas
+scikit-learn>=1.3
+matplotlib
+tqdm
+requests
