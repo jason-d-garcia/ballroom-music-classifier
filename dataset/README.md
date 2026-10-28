@@ -32,8 +32,9 @@ only; audio stays local. Rebuild with `build_dataset.py` (sources and command in
 - Where Ballroom 2004 beats overlap (253 clips), the beat-derived tempo agrees with the Extended
   Ballroom BPM within 4 % for 97.6 % of clips, and the measured beats per bar matches the dance
   in every case.
-- Only 1,768 clips fall in a single family by tempo; most Standard dances also fit American
-  Smooth, so style family is a property of the tempo, not a separate label the audio can supply.
+- 1,528 Standard-type clips fit both the International Standard and the American Smooth tempo
+  range, so tempo alone can't tell those two families apart for most clips; only Viennese waltz
+  and Quickstep separate cleanly.
 
 Not included: competition playlists (no reachable source from the cloud container; WDSF / NDCA
 music lists or DJ playlists could be added as another `source` later).
